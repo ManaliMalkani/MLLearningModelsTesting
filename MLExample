@@ -1,0 +1,46 @@
+1. Examples of AI
+
+CALCUL ATORS
+Devices that perform mathematical calculations, a classic example of narrow AI that excels at a specific task.
+
+VOICE ASSISTANTS LIKE SIRI OR ALEXA
+AI-powered virtual assistants that can understand and respond to natural language, enabling hands- free interaction and voice-based control of various tasks.
+
+SELF-DRIVING CARS
+Vehicles equipped with AI-powered systems that can navigate roads, detect obstacles, and make driving decisions without human intervention, showcasing the potential of AI in transportation
+
+RECOGNIZING OBJECTS BY PICTURE NAME
+AI models trained on large datasets of images that can accurately identify and classify objects, animals, or scenes depicted in photographs, demonstrating advancements in computer vision.
+
+CHATBOTS THAT PROVIDE CUSTOMER SERVICE
+AI-powered conversational agents that can engage in natural language interactions to assist customers with queries, complaints, or othersupport requests, automating an
+
+2. ML Model Testing
+
+Approaches of AI
+
+- Rule Based Systems
+* An earlier form of AI that uses manually programmed 'if-then' rules derived from expert knowledge to make decisions.
+
+-	MACHINE LEARNING
+* A more advanced approach to AI that learns from data, identifying patterns and relationships to make predictions or decisions, without relying on predefined rules.
+
+3. Strengths and Limitations of Rule Based Testing
+- Ease of understanding and adaptability -80%
+- Transparency -85%
+- Ability to learn and Adapt -20%
+- Performance in complex environments  -30%
+
+4. What is ML
+- Machine Learning is a specific approach to achieve Artificial Intelligence (AI) by giving machines access to data and allowing them to learn for themselves. Instead of being explicitly programmed to perform a task, a machine is trained on data, and it learns patterns and relationships from this data to make decisions or predictions.
+
+5. Strengths and Limitations of ML
+- Flexibility- 90%
+- Scalability-85%
+- Interpretability- 60%
+- Datasetsize Requirement - 80%
+
+6. ML model lifecycle stages with online/offline modes
+- Offline- Data Preparation ->Model Engineering ->Model Evaluation 
+- Online -> Model Deployment ->Operations->Monitor and Evaluate-> Plan->Data Preparation
+- Business and Data Understanding -> Plan
