@@ -1,0 +1,101 @@
+- Supervised Learning Algorithms
+Linear Regression
+Used for predicting a continuous value by learning the relationship between input features and target variable.
+
+Random Forests
+An ensemble method that uses many decision trees to improve classification or regression performance by reducing
+overfitting and increasing stability.
+
+Logistic Regression
+Used for binary classification tasks, such as spam detection or loan approval, by learning the probability of a binary outcome.
+
+Gradient Boosting Machines (GBM)
+Another ensemble technique that builds decision trees in a sequential manner, correcting the errors of the previous trees
+to improve overall performance.
+
+Support Vector Machines (SVM)
+Effective in high-dimensional spaces, used for both regression and classification tasks by finding the optimal hyperplane that
+maximizes the margin between classes.
+
+Neural Networks
+Highly flexible models capable of handling various types of data and tasks, including image and speech recognition, by
+learning complex patterns in data. 
+
+Decision Trees
+Used for both classification and regression, forming a tree-like model of decisions based on feature values to make predictions.
+
+K-Nearest Neighbors (KNN)
+A simple algorithm that stores all available cases and classifies new cases based on a similarity measure, such as distance
+functions.
+
+- Unsupervised Learning Algorithms
+
+K-Means Clustering
+Automatically partition a dataset into K distinct groups based on feature similarities
+
+Independent Component Analysis (ICA)
+Similar to PCA but finds components that are maximally independent of each other
+
+Hierarchical Clustering
+Builds a tree of clusters, particularly useful for hierarchical data like taxonomies
+
+Autoencoders
+Neural network-based models used for learning efficient codings of unlabeled data
+
+Principal Component Analysis (PCA)
+Technique used to emphasize variation and bring out strong patterns in a dataset
+
+Generative Adversarial Networks (GANs)
+An approach where two models are trained simultaneously; one generates candidates and the other evaluates them
+
+-Reinforcement Learning Algorithms
+
+Q-Learning
+A model-free reinforcement learning algorithm that learns the value of an action in a particular state.
+
+Actor-Critic Methods
+Combine the benefits of value iteration and policy gradient methods by using two models: one for the policy and one as the value estimator.
+
+Deep Q Network (DQN)
+Combines Q-Learning with deep neural networks to approximate the Q-value functions.
+
+Monte Carlo Tree Search (MCTS)
+Used in decision processes for calculating statistics by averaging over sample paths at a decision node.
+
+Policy Gradient Methods
+Learn a parameterized policy that can be optimized directly.
+
+A3C (Asynchronous Advantage Actor-Critic)
+Uses deep learning and a variant of actor-critic methods with a parallel architecture to improve training speed and stability.
+
+Top Python Frameworks
+Scikit-learn
+A comprehensive machine learning library that provides efficient implementations of a wide range of supervised and unsupervised learning algorithms, including linear regression, logistic regression, support vector machines, decision trees, and clustering methods.
+
+LightGBM
+A gradient boosting framework that uses tree-based learning algorithms, designed for efficiency and speed, particularly suitable for handling large-scale data and
+high-dimensional features.
+
+TensorFlow
+A powerful open-source library for numerical computation and large-scale machine learning, with a focus on deep learning models and neural networks. It provides a
+flexible ecosystem of tools, libraries, and community resources.
+
+CatBoost
+A gradient boosting framework that specializes in handling categorical data, providing state-of-the-art results for standard machine learning tasks.
+
+Keras
+A high-level neural networks API that runs on top of TensorFlow, providing a user- friendly interface for building and training deep learning models. It simplifies thedevelopment process and is suitable for both beginners and experienced users.
+
+OpenAI Gym
+A toolkit for developing and comparing reinforcement learning algorithms, providing a wide variety of environments for training agents and testing various RLapproaches.
+
+PyTorch
+A open-source machine learning library that emphasizes flexibility and research, with a focus on deep learning applications. It is particularly popular in the research
+community for its dynamic computation graph and ease of use.
+
+Stable Baselines
+An extension of the original OpenAI baselines library, providing reliable and improved implementations of popular reinforcement learning algorithms, such as
+A3C, PPO, and TRPO.
+
+XGBoost
+A highly efficient and scalable implementation of the gradient boosting algorithm, known for its performance in structured data problems, such as classification and regression tasks.
