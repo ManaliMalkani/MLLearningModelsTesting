@@ -3,84 +3,47 @@ Functional completeness ensures that the ML model operates according to its inte
 Example: If an ML model is designed to classify emails as either "spam" or "not spam," it should consistently provide accurate classifications without errors. If emails that are clearly spam are classified as "not spam," it indicatesa lack of functional completeness.
 
 Temperature Testing Definition
-Temperature testing is used to control the randomness of predictions in
-generative models. Lower temperatures make the model more deterministic,
-while higher temperatures make it more creative and unpredictable.
-Example: For a chatbot that generates responses, setting the temperature to
-0.2 will make the responses more repetitive and focused, whereas a
+Temperature testing is used to control the randomness of predictions in generative models. Lower temperatures make the model more deterministic, while higher temperatures make it more creative and unpredictable.
+Example: For a chatbot that generates responses, setting the temperature to 0.2 will make the responses more repetitive and focused, whereas a
 temperature of 0.9 will make the responses more varied and creative. Testing
 different temperatures can help evaluate the model's stability.
 
 Prompts Testing Zero-shot
-Testing how the model handles requests without prior training on similar
-examples.
-Example:
-Asking a text generation model, "What is the capital of France?" without
-having trained the model specifically on geography to evaluate how well it
-generalizes knowledge.
+Testing how the model handles requests without prior training on similar examples.
+Example: Asking a text generation model, "What is the capital of France?" without having trained the model specifically on geography to evaluate how well it generalizes knowledge.
 
 Chain of Thought Prompts
-Assessing how well the model can follow a sequence of logical steps or
-reasoning.
-Chain of thought prompts evaluate the model's ability to follow logical
-reasoning steps
-These prompts require the model to demonstrate sequential thinking and
-problem-solving
-Example: "If a train leaves at 3 PM and travels for 2 hours at 60 km/h, how far
-will it have traveled by 5 PM?" Here, the model needs to demonstrate logical
-reasoning by calculating the total distance based on the input information.
+Assessing how well the model can follow a sequence of logical steps or reasoning.
+Chain of thought prompts evaluate the model's ability to follow logical reasoning steps.These prompts require the model to demonstrate sequential thinking and problem-solving
+Example: "If a train leaves at 3 PM and travels for 2 hours at 60 km/h, how far will it have traveled by 5 PM?" Here, the model needs to demonstrate logical reasoning by calculating the total distance based on the input information.
 
-Does It Stay Relevant to the
-Topic?
+Does It Stay Relevant to the Topic?
 Definition
-This checks whether the model stays on topic or drifts away during
-conversations or tasks.
-Example
-When asked, "Explain the causes of global warming," the model should
-stick to discussing climate change rather than suddenly switching topics
-to pollution control unless it's closely related.
+This checks whether the model stays on topic or drifts away during conversations or tasks.
+Example When asked, "Explain the causes of global warming," the model should stick to discussing climate change rather than suddenly switching topics to pollution control unless it's closely related.
 
 Fantasy Claims Definition
-Fantasy Claims Definition: This ensures that the model does not make overly imaginative or false claims beyond
-reasonable knowledge.
-Example: Asking a health-related AI, "Can drinking tea cure cancer?" and making sure it doesn't respond with an
-unscientific or fantastic claim like "Yes, tea is a miracle cure for all diseases."
+Fantasy Claims Definition: This ensures that the model does not make overly imaginative or false claims beyond reasonable knowledge.
+Example: Asking a health-related AI, "Can drinking tea cure cancer?" and making sure it doesn't respond with an unscientific or fantastic claim like "Yes, tea is a miracle cure for all diseases."
 
 Accuracy Testing Definition
-Accuracy Testing Definition: This involves measuring how
-accurate the model is in predicting outcomes or making
-classifications.
-Example: If an image classification model is designed to
-recognize dogs, cats, and birds, running it on a test
-dataset of unseen images should reveal how often it
-correctly identifies each category (e.g., 90% accuracy for
-dogs, 85% for cats).
+Accuracy Testing Definition: This involves measuring how accurate the model is in predicting outcomes or making classifications. Example: If an image classification model is designed to
+recognize dogs, cats, and birds, running it on a test dataset of unseen images should reveal how often it correctly identifies each category (e.g., 90% accuracy for dogs, 85% for cats).
 
 Repeatability Testing
-1.
-2.
-Repeatability Testing Definition: This ensures that when the model is asked the same question multiple times, it
-provides the same response consistently.
-Example: Asking a model, "What is the square root of 16?" multiple times should always yield "4" as the answer. If the
-answer varies, it indicates instability in the model.
+Repeatability Testing Definition: This ensures that when the model is asked the same question multiple times, it provides the same response consistently.
+Example: Asking a model, "What is the square root of 16?" multiple times should always yield "4" as the answer. If the answer varies, it indicates instability in the model.
 
 Ask Questions in Different Phrases
 1 Ask Question
 2 Rephrase Question
 3 Compare Answers
-Ask Questions in Different Phrases Definition: This tests the model's ability to understand different ways of asking the
-same question.
-Example: For an AI answering a math question, "What is 5 + 7?" and "Could you add five and seven for me?" should both
-return the answer "12."
+Ask Questions in Different Phrases Definition: This tests the model's ability to understand different ways of asking the same question.
+Example: For an AI answering a math question, "What is 5 + 7?" and "Could you add five and seven for me?" should both return the answer "12."
 
 Style Transfer Testing
-Style Transfer Testing Definition
-This checks the model's ability to adjust the tone or style of output,
-depending on user input or context.
-Example of Style Transfer
-A text generation model could be asked to write a formal email, and
-then a casual message on the same topic. The responses should differ
-in tone, formality, and word choice while remaining coherent.
+Style Transfer Testing Definition This checks the model's ability to adjust the tone or style of output, depending on user input or context.
+Example of Style Transfer : A text generation model could be asked to write a formal email, and then a casual message on the same topic. The responses should differ in tone, formality, and word choice while remaining coherent.
 
 Intent Recognition
 Intent Recognition Definition: This tests whether the model can correctly interpret the intent behind the user's input,
@@ -103,4 +66,80 @@ User Action Prompts with Options Definition: This checks if the model can presen
 inputs.
 Example: Asking a virtual assistant, "What can I do for fun this weekend?" should yield a list of relevant suggestions, such
 as "Go to the park," "Watch a movie," or "Visit a museum."
+
+Responsible AI
+Testing
+It refers to the process of evaluating and ensuring that artificial
+intelligence (AI) systems are developed and deployed in a manner that
+aligns with ethical, fair, transparent, and reliable standards. The goal is to
+address the risks that AI can pose, including bias, lack of transparency,
+security vulnerabilities, and unintended societal impacts.
+
+Fairness Testing
+Definition: Fairness testing ensures that the model treats all
+demographic groups equitably, without unfair bias based on race,
+gender, age, socioeconomic status, etc.
+Example: In a hiring model, fairness testing might involve examining
+whether the algorithm favors one gender or racial group over another
+in making decisions on medicine suggestions.
+
+Bias Detection and
+Mitigation
+1 Definition
+Identifying and mitigating inherent biases in the model.
+2 Example
+Testing image recognition model across diverse dataset for
+equal accuracy.
+3 Mitigation Methods
+Rebalancing training data and using fairness-aware
+algorithms.
+
+Transparency Testing
+(Explainability)
+1
+Definition
+Ensures model decisions can be easily understood and
+explained.
+2
+Example
+Loan approval model explaining reasons for approval or
+denial
+
+Ethical Testing
+1 Definition
+Tests ethical implications of AI decisions, ensuring adherence to
+moral standards.
+2 Example
+Health diagnosis model not recommending life-changing
+treatments without high confidence.
+3 Importance
+Prevents overstepping boundaries in sensitive contexts like
+healthcare or criminal justice.
+
+Data Privacy and Security Testing
+Definition
+Ensures model adheres to privacy regulations and protects sensitive
+information.
+Example
+Facial recognition system not leaking personal images during testing or
+production.
+Techniques
+Differential privacy and federated learning for data protection.
+
+Model Generalization Testing
+Definition
+Ensures model generalizes well across diverse environments and
+datasets.
+Example
+Sentiment analysis model trained on U.S. data working well with other
+countries' data.
+Importance
+Prevents performance drop-offs when applied to new or diverse
+datasets.
+
+Societal Impact Testing
+Definition: This tests the broader societal implications of deploying the AI model, ensuring that its use will have a net
+positive impact and align with social norms and values.
+Example: A predictive policing model could be tested to see if its use disproportionately affects certain communities.
+Societal impact testing would check if such an algorithm reinforces existing inequalities or creates new problems.
 
