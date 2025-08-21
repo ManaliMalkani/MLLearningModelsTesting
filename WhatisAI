@@ -1,0 +1,217 @@
+What is AI?
+COMPUTER SCIENCE FIELD
+AI is a broad field of computer science
+focused on creating systems that can
+perform tasks typically requiring human
+intelligence.
+INTELLIGENT TASKS
+These tasks include problem-solving,
+natural language understanding, pattern
+recognition, and decision-making.
+EXAMPLES
+Examples of AI include calculators, voice
+assistants, self-driving cars, object
+recognition, and chatbots.
+AS AI AND MACHINE LEARNING ALGORITHMS CONTINUE TO EVOLVE, WE CAN
+EXPECT TO SEE EVEN MORE IMPRESSIVE AI APPLICATIONS IN THE FUTURE
+
+Examples of AI
+CALCULATORS
+Devices that perform mathematical calculations, a
+classic example of narrow AI that excels at a
+specific task.
+VOICE ASSISTANTS LIKE SIRI OR
+ALEXA
+AI-powered virtual assistants that can understand
+and respond to natural language, enabling handsfree interaction and voice-based control of various
+tasks.
+SELF-DRIVING CARS
+Vehicles equipped with AI-powered systems that
+can navigate roads, detect obstacles, and make
+driving decisions without human intervention,
+showcasing the potential of AI in transportation.
+RECOGNIZING OBJECTS BY
+PICTURE NAME
+AI models trained on large datasets of images that
+can accurately identify and classify objects,
+animals, or scenes depicted in photographs,
+demonstrating advancements in computer vision.
+CHATBOTS THAT PROVIDE
+CUSTOMER SERVICE
+AI-powered conversational agents that can engage
+in natural language interactions to assist
+customers with queries, complaints, or other
+support requests, automating and imp
+
+The Approaches of AI
+RULE-BASED SYSTEMS
+An earlier form of AI that uses manually
+programmed 'if-then' rules derived from expert
+knowledge to make decisions.
+MACHINE LEARNING
+A more advanced approach to AI that learns from
+data, identifying patterns and relationships to
+make predictions or decisions, without relying on
+predefined rules
+
+Strengths and Limitations of Rule-Based Systems
+Ease of Understanding and Adaptability
+85%
+TRANSPARENCY
+20%
+ABILITY TO LEARN AND
+ADAPT
+80%
+EASE OF UNDERSTANDING
+30%
+PERFORMANCE IN COMPLEX
+ENVIRONMENTS
+
+Examples of Machine Learning
+SPAM FILTERS IN EMAIL
+Machine learning models are trained on
+large datasets of spam and non-spam
+emails to learn the patterns and
+characteristics of spam messages. These
+models can then automatically detect and
+filter out spam emails in a user's inbox.
+RECOMMENDATION ENGINES
+Netflix, YouTube, and other platforms use
+machine learning algorithms to analyze
+user preferences, browsing history, and
+other data to provide personalized
+recommendations for movies, videos, and
+other content the user is likely to enjoy.
+PREDICTIVE MAINTENANCE IN
+INDUSTRIAL SETTINGS
+Machine learning models can be trained
+on sensor data from industrial equipment
+to predict when maintenance or repairs
+will be needed. This helps optimize
+maintenance schedules, reduce downtime,
+and prevent costly breakdowns.
+
+Examples of Machine Learning
+IMAGE
+CLASSIFICATION
+Machine learning models
+can be trained to
+recognize and classify
+different objects, animals,
+or scenes in images with
+high accuracy.
+SPAM FILTERING
+Machine learning
+algorithms can analyze
+email content and header
+data to accurately
+identify and filter out
+spam messages based on
+patterns learned from
+previous examples.
+FRAUD DETECTION
+Financial institutions use
+machine learning to
+analyze transaction data
+and detect anomalies or
+suspicious activities that
+may indicate fraudulent
+behavior.
+RECOMMENDATION
+SYSTEMS
+E-commerce and media
+platforms leverage
+machine learning to
+analyze user preferences
+and behaviors to provide
+personalized product or
+content
+recommendations.
+NATURAL LANGUAGE
+PROCESSING
+Machine learning models
+can be trained to
+understand, interpret, and
+generate human
+language, enabling
+applications such asStrengths and Limitations of Machine Learning
+Comparison of machine learning capabilities (0-100 scale)
+90%
+85%
+80%
+60%
+FLEXIBILITY
+SCALABILITY
+INTERPRETABILITY
+DATASET SIZE REQUIREMENT
+
+The Evolution of AI
+1 9 5 0 S - 1 9 7 0 S
+Rule-based systems
+and expert systems
+emerge, using
+predefined if-then
+rules to make
+decisions.
+1 98 0 S - 1 9 9 0 S
+Machine learning
+algorithms like neural
+networks and
+decision trees are
+developed, enabling
+systems to learn from
+data.
+2 0 0 0 S - 2 0 1 0 S
+Deep learning, a more
+advanced form of
+machine learning,
+becomes widely
+adopted, allowing AI
+to tackle complex
+problems like image
+recognition and
+natural language
+processing.
+2 0 1 0 S - P R E S E NT
+Hybrid approaches
+combining rule-based
+systems and machine
+learning emerge,
+leveraging the
+strengths of both to
+create more robust
+and adaptable AI
+systems.
+
+ypes of Machine Learning
+SUPERVISED LEARNING
+The model is trained on
+labeled data, meaning the
+input comes with the correct
+output. Examples include
+spam filtering, image
+classification, and predictive
+analytics.
+UNSUPERVISED
+LEARNING
+The model is trained on
+unlabeled data and must find
+patterns and relationships in
+the data. Examples include
+customer segmentation,
+anomaly detection, and
+recommendation systems.
+REINFORCEMENT
+LEARNING
+The model learns by
+interacting with an
+environment and receiving
+rewards or penalties based on
+its actions. Examples include
+game-playing algorithms,
+robotics, and resource
+management.
+chatbots, language
+translation, and text
+summarization.
+
